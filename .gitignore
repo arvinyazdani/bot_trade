@@ -1,0 +1,52 @@
+# --- Python general ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environment ---
+venv/
+.env/
+.env.bak/
+env/
+.venv/
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+
+# --- Logs & backups ---
+*.log
+*.bak
+*.tmp
+*.old
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Compiled & cache ---
+*.so
+*.pyd
+*.pyo
+*.pdb
+
+# --- Test & debug ---
+.coverage
+.pytest_cache/
+.cache/
+debug.log
+
+# --- Jupyter or notebooks ---
+.ipynb_checkpoints/
+
+# --- Project specific ---
+/src/__pycache__/
+/src/core/__pycache__/
+/src/utils/__pycache__/
+/src/tests/__pycache__/
+
+# --- Backups or exports ---
+backup/
+dist/
+build/

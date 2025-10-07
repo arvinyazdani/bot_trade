@@ -1,0 +1,9 @@
+{
+  "trade_duration": 5,
+  "martingale_mode": "regular",
+  "martingale_step": 2,
+  "max_trades": 20,
+  "pause_between_trades": 1,
+  "reverse_trading": false,
+  "five_second_mode": false
+}
